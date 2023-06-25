@@ -1,0 +1,26 @@
+body{background-color: #696e34;}
+nav {background-color: #18404e;}
+.nav-link{color: #e9b607;}
+li{color:#e9b607;}
+.costumer-carousel-height {height: 25rem ;width: 25rem; margin-top: 1% ;}
+.custom-footer-height{height:20rem ;}
+#carouselExampleIndicators {
+    max-width: 800px; /* Establece el ancho máximo del carrusel */
+    margin: 0 auto; /* Centra el carrusel horizontalmente */
+  }
+  
+  .carousel-inner .carousel-item img {
+    max-width: 100%; /* Establece el ancho máximo de las imágenes dentro del carrusel */
+    height: auto; /* Permite que la altura se ajuste automáticamente de forma proporcional */
+  }
+  .costumer-text-a-nav,.costumer-text-a-nav:hover,.costumer-text-a-nav:focus{color:#e9b607;}
+  footer{background-color:#18404e ;}
+  .footer-link{color:#e9b607;}
+
+
+  /*custom forms↓*/
+
+.form-label{color: #e9b607;}
+form{margin-top: 1% ;margin-bottom: 1%;}
+.ofertas{width: 100%;}
+.card{background-color: #18404e ;}
