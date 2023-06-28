@@ -35,3 +35,20 @@ h5{padding-bottom: 2%;}
     height: 50%;
   }
 }*/
+.btn-item{
+  color: #18404e;
+  background-color: #e9b607;
+  border-radius:50%;
+  box-shadow: #18404e;
+  font-family: cursive;
+  text-decoration: solid;
+  width:15rem;;
+
+}
+
+
+.btn-item:hover{
+  translate:2px 1px;
+}
+
+template.g
