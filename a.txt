@@ -1,2 +1,0 @@
-LINK DEL REPO:https://github.com/HernanMolinaDev/Entrega-Coder
-DEPLOYMENT:https://hernanmolinadev.github.io/Entrega-Coder/
