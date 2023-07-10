@@ -1,3 +1,23 @@
 body{
     background-color:$color3;
 }
+.color-text-amarillo{
+        color:$color2
+}
+.item-off{
+    background-color: $color1 ;
+    border-radius: 1%;
+    text-align: center;
+    margin-left: 2%;
+}
+//↓H↓
+h1{
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+}
+h3{
+    font-family: cursive;
+}
+h5{
+    padding-bottom: 2%;
+}

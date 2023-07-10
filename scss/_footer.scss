@@ -1,1 +1,12 @@
-footer{background: origin $color1;}
+footer{
+    background:$color1;
+}
+.custom-footer-height{
+    height:20rem;
+}
+footer{
+    background-color:$color1;
+}
+.footer-link{
+    color:$color2;
+}

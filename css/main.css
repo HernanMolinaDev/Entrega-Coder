@@ -1,0 +1,113 @@
+body {
+  background-color: #696e34;
+}
+
+.color-text-amarillo {
+  color: #e9b607;
+}
+
+.item-off {
+  background-color: #18404e;
+  border-radius: 1%;
+  text-align: center;
+  margin-left: 2%;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+h3 {
+  font-family: cursive;
+}
+
+h5 {
+  padding-bottom: 2%;
+}
+
+nav {
+  background-color: #18404e;
+  color: #e9b607;
+}
+
+.nav-link {
+  color: #e9b607;
+}
+
+.custom-toggler-icon {
+  background-image: url("img/burger.png");
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+}
+
+footer {
+  background: #18404e;
+}
+
+.custom-footer-height {
+  height: 20rem;
+}
+
+footer {
+  background-color: #18404e;
+}
+
+.footer-link {
+  color: #e9b607;
+}
+
+.bienvenida-index {
+  background-color: #18404e;
+  border-radius: 2%;
+  color: #e9b607;
+  margin-top: 2%;
+  margin-bottom: 5%;
+  margin-right: 2%;
+  width: 40vw;
+  height: auto;
+  text-align: center;
+}
+
+.carousel {
+  margin-bottom: 5%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  width: 40vw;
+}
+
+form {
+  margin-top: 1%;
+  margin-bottom: 3%;
+  margin-bottom: 3%;
+  background-color: #18404e;
+  border-radius: 1%;
+  text-align: center;
+}
+
+.form-label {
+  color: #e9b607;
+}
+
+.quienes-somos {
+  background-color: #18404e;
+  margin-top: 2%;
+  color: #e9b607;
+  border-radius: 1%;
+}
+
+@media (max-width: 900px) {
+  .carousel-conteiner {
+    margin-left: 3%;
+    flex-direction: column;
+  }
+  .carousel {
+    width: 80vw;
+  }
+  .bienvenida-index {
+    width: 80vw;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

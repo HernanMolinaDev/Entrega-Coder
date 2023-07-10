@@ -2,3 +2,12 @@ nav{
     background-color: $color1;
     color:$color2;
 }
+.nav-link{
+    color:$color2;
+}
+.custom-toggler-icon{
+    background-image:url("img/burger.png");
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+}

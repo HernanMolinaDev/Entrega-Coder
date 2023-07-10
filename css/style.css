@@ -1,20 +1,65 @@
-body{background-color: #696e34;}
-nav {background-color: #18404e;}
+body{
+  background-color: #696e34;
+}
+nav {
+  background-color: #18404e;
+}
 
-.nav-link{color: #e9b607 ;}
+.nav-link{
+  color: #e9b607 ;
+}
 
 .custom-toggler-icon{background-image:url("img/burger.png");
 background-size: cover;
 width: 30px;
 height: 30px;}
-.costumer-carousel-height {height: 25rem ;width: 25rem; margin-top: 1% ;}
+
 .custom-footer-height{height:20rem ;}
-.carousel{margin-bottom: 5%;}
+
+main{padding-left: 2%;}
+
+
+.bienvenida-index{
+  background-color: #18404e;
+  border-radius: 2%;
+  color: #e9b607;
+  margin-top: 2%;
+  margin-bottom: 5%;
+  margin-right: 2%;
+  width:40vw;
+  height:auto;
+  text-align: center;
+
+}
+
+
+
+.carousel{margin-bottom: 5%; 
+
+  padding-top: 25px;
+  padding-bottom: 25px;
+  width:40vw;
+}
+.carousel-conteiner{display: flex;
+flex-direction: row;
+margin-left: 10%;}
+@media (max-width: 900px){
+  .carousel-conteiner{
+    margin-left: 3%;
+flex-direction: column;
+  }
+  .carousel{
+    width:80vw;
+  }
+  .bienvenida-index{width: 80vw;}
+}
+
   .costumer-text-a-nav,.costumer-text-a-nav:hover,.costumer-text-a-nav:focus{color:#e9b607;}
   footer{background-color:#18404e ;}
   .footer-link{color:#e9b607;}
 
-  .color-text-amarillo{color:#e9b607}
+.color-text-amarillo{color:#e9b607}
+
   /*custom forms↓*/
 
 .form-label{color: #e9b607;}

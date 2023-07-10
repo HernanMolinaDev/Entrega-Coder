@@ -1,0 +1,13 @@
+
+//media para main(carrusel y bienvenida)↓
+@media (max-width: 900px)
+{
+    .carousel-conteiner{
+        margin-left: 3%;
+        flex-direction: column;
+    }
+    .carousel{
+        width:80vw;
+    }
+    .bienvenida-index{width: 80vw;}
+}
