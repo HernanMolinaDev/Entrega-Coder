@@ -75,6 +75,14 @@ footer {
   padding-bottom: 25px;
   width: 40vw;
 }
+.carousel .carousel-conteiner {
+  display: flex;
+  flex-direction: row;
+  margin-left: 10%;
+}
+.carousel .carousel-conteiner img {
+  width: 10rem;
+}
 
 form {
   margin-top: 1%;

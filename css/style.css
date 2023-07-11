@@ -44,7 +44,9 @@ main{padding-left: 2%;}
 }
 .carousel-conteiner{display: flex;
 flex-direction: row;
-margin-left: 10%;}
+margin-left: 10%;
+}
+.carousel-conteiner img{width:10rem;}
 @media (max-width: 900px){
   .carousel-conteiner{
     margin-left: 3%;

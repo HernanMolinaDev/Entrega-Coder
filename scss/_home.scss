@@ -13,9 +13,16 @@
   }
   
 
-  .carousel{
-    margin-bottom: 5%; 
+.carousel{margin-bottom: 5%; 
+
     padding-top: 25px;
     padding-bottom: 25px;
     width:40vw;
+        .carousel-conteiner{display: flex;
+            flex-direction: row;
+            margin-left: 10%;
+                    img{
+                        width:10rem;
+                    }
+            }
   }
