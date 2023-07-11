@@ -1,0 +1,19 @@
+
+.btn-item{
+    color:$color1;
+    background-color: $color2;
+    border-radius:50%;
+    box-shadow:$color1;
+    font-family: cursive;
+    text-decoration: solid;
+    width:15rem;;
+                                .btn-item:hover{
+                                    translate:2px 1px;
+                                }
+}
+.item-off{
+    background-color: $color1 ;
+    border-radius: 1%;
+    text-align: center;
+    margin-left: 2%;
+}

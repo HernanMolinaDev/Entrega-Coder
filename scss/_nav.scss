@@ -11,3 +11,8 @@ nav{
     width: 30px;
     height: 30px;
 }
+
+.img-logo-nav:hover{
+    transform: rotate(360deg); 
+    transition-duration:1s;
+}

@@ -1,15 +1,13 @@
 body{
     background-color:$color3;
 }
+main{
+    padding-left: 2%;
+}
 .color-text-amarillo{
         color:$color2
 }
-.item-off{
-    background-color: $color1 ;
-    border-radius: 1%;
-    text-align: center;
-    margin-left: 2%;
-}
+
 //↓H↓
 h1{
     text-align: center;

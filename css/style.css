@@ -32,8 +32,10 @@ main{padding-left: 2%;}
 
 }
 
-
-
+.img-about img{
+  align-content: center;
+}
+.img-logo-nav:hover{transform: rotate(360deg); transition-duration:1s;}
 .carousel{margin-bottom: 5%; 
 
   padding-top: 25px;
@@ -54,7 +56,7 @@ flex-direction: column;
   .bienvenida-index{width: 80vw;}
 }
 
-  .costumer-text-a-nav,.costumer-text-a-nav:hover,.costumer-text-a-nav:focus{color:#e9b607;}
+  
   footer{background-color:#18404e ;}
   .footer-link{color:#e9b607;}
 
@@ -69,7 +71,7 @@ form{margin-top: 1% ;margin-bottom: 3%; margin-bottom:3%; ;background-color: #18
 
 .item-off{background-color: #18404e ; border-radius: 1%; text-align: center;margin-left: 2%;}
 
-.quienes-somos{background-color: #18404e ;margin-top: 2%;color: #e9b607;border-radius: 1%;}
+.quienes-somos{background-color: #18404e ;margin-top: 2%;color: #e9b607;border-radius: 1%; text-align: center; margin-bottom: 2%;}
 h1{text-align: center; font-family:'Times New Roman', Times, serif;}
 .btn {color: #e9b607;}
 h3{font-family: cursive;}
