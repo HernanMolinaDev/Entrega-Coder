@@ -1,7 +1,16 @@
 
 //media para main(carrusel y bienvenida)↓
-@media (max-width: 900px)
-{
+@media (max-width: 900px) {
+    .carrito-container {
+        
+        grid-template-areas: 
+        "e1"
+        "e2"
+        "e3"
+        "e4"
+        "e5";
+        grid-template-columns:1fr;
+    }
     .carousel-conteiner{
         margin-left: 3%;
         flex-direction: column;
