@@ -36,7 +36,7 @@ nav {
 }
 
 .navbar-toggler-icon {
-  background-image: url("/img/burger.png");
+  background-image: url("../img/burger.png");
   background-size: cover;
   width: 30px;
   height: 30px;
