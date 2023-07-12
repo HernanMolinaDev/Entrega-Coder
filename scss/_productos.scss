@@ -6,7 +6,7 @@
     box-shadow:$color1;
     font-family: cursive;
     text-decoration: solid;
-    width:15rem;;
+    width:9rem;
                                 .btn-item:hover{
                                     translate:2px 1px;
                                 }
@@ -15,5 +15,8 @@
     background-color: $color1 ;
     border-radius: 1%;
     text-align: center;
-    margin-left: 2%;
+    margin: 2%;
+}
+.ofertas{
+    padding:0;
 }

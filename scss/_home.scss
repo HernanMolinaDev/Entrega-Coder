@@ -1,3 +1,10 @@
+@import"_mixins.scss";
+
+.carousel-conteiner{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+}
 
 .bienvenida-index{
     background-color: $color1;
@@ -9,20 +16,21 @@
     width:40vw;
     height:auto;
     text-align: center;
-  
-  }
-  
-
-.carousel{margin-bottom: 5%; 
+        @include animation(none,initial,slide,2s);
+            img{
+            width:15vw;
+            @include animation(none,none,bounce,1s);
+            }
+    }
+    .carousel{margin-bottom: 5%; 
 
     padding-top: 25px;
     padding-bottom: 25px;
     width:40vw;
-        .carousel-conteiner{display: flex;
-            flex-direction: row;
-            margin-left: 10%;
-                    img{
-                        width:10rem;
-                    }
+        
+            img{
+                width:10rem;
             }
-  }
+        }
+
+

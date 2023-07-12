@@ -4,7 +4,13 @@ form{
     margin-bottom:3%;
     ;background-color:$color1;
     border-radius: 1%;
-    text-align: center;}
-.form-label{
-    color: $color2;
+    text-align: center;
+        .btn-form{
+            color:$color1;
+            background-color:$color2;
+            margin-bottom: 1% ;
+        }
+        .form-label{
+            color: $color2;
+        }
 }
