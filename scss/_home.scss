@@ -16,10 +16,10 @@
     width:40vw;
     height:auto;
     text-align: center;
-        @include animation(none,initial,slide,2s);
+        @include animation(wheel,3s);
             img{
             width:15vw;
-            @include animation(none,none,bounce,1s);
+            @include animation(up-to-down,2s);
             }
     }
     .carousel{margin-bottom: 5%; 

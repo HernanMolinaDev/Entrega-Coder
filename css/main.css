@@ -1,3 +1,19 @@
+@keyframes up-to-down {
+  0% {
+    margin-top: 300px;
+  }
+  100% {
+    margin: 0px;
+  }
+}
+@keyframes wheel {
+  0% {
+    transform: rotate(170deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
 body {
   background-color: #696e34;
   margin: 0;
@@ -44,7 +60,7 @@ nav {
 
 .img-logo-nav:hover {
   transform: rotate(360deg);
-  transition-duration: 1s;
+  transition-duration: 1.5s;
 }
 
 footer {
@@ -71,17 +87,13 @@ footer .footer-link {
   width: 40vw;
   height: auto;
   text-align: center;
-  position: none;
-  animation-fill-mode: initial;
-  animation-name: slide;
-  animation-duration: 2s;
+  animation-name: wheel;
+  animation-duration: 3s;
 }
 .bienvenida-index img {
   width: 15vw;
-  position: none;
-  animation-fill-mode: none;
-  animation-name: bounce;
-  animation-duration: 1s;
+  animation-name: up-to-down;
+  animation-duration: 2s;
 }
 
 .carousel {
@@ -140,6 +152,22 @@ form .form-label {
     width: 80vw;
   }
 }
+@keyframes up-to-down {
+  0% {
+    margin-top: 300px;
+  }
+  100% {
+    margin: 0px;
+  }
+}
+@keyframes wheel {
+  0% {
+    transform: rotate(170deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
 .btn-item {
   color: #18404e;
   background-color: #e9b607;
@@ -158,6 +186,8 @@ form .form-label {
   border-radius: 1%;
   text-align: center;
   margin: 2%;
+  animation-name: up-to-down;
+  animation-duration: 2.5s;
 }
 
 .ofertas {
