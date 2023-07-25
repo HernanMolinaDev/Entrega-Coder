@@ -2,18 +2,17 @@
 
 @media (max-width: 900px) {
     .carrito-container {
-    display: grid;
-    grid-template-columns:1fr;
-    grid-template-rows:1fr;
-    grid-gap: 10px;
-    grid-template-areas: 
-    "e1"
-    "e2"
-    "e3"
-    "e4"
-    "e5";
-    }
-//media para main(carrusel y bienvenida)↓
+        display: grid;
+        grid-template-columns:repeat(1,1fr);
+        grid-template-rows:repeat(5,1fr);
+        grid-gap: 10px;
+        grid-template-areas: 
+        "e1"
+        "e2"
+        "e3"
+        "e4"
+        "e5";}
+    // main(carrusel y bienvenida)↓
     .carousel-conteiner{
         margin-left: 3%;
         flex-direction: column;
@@ -24,8 +23,9 @@
     .bienvenida-index{
         width: 80vw;
     }
-    .main-contact{display: grid;
-       grid-template-columns: 1fr;
+    .main-contact{
+        display: grid;
+        grid-template-columns: 1fr;
         gap: 20px;
         
     }
