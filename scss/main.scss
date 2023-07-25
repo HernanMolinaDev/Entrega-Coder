@@ -1,7 +1,5 @@
-@import "_keyframe.scss";
 @import"_vars.scss";
 @import"_mixins.scss";
-@import"_mediaquerys.scss";
 @import "_commons.scss";
 @import "_nav.scss";
 @import "_footer.scss";
@@ -10,4 +8,7 @@
 @import"_quienessomos.scss";
 @import"_productos.scss";
 @import "_carrito.scss";
+@import "_error404";
+@import "_keyframe.scss";
+@import"_mediaquerys.scss";
 

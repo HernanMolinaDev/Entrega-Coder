@@ -3,7 +3,9 @@
     grid-template-columns: 1fr 1fr;
     gap: 20px;
 
-
+    h1{
+        text-shadow:2px 2px $color1;        
+    }
     form {
         margin-top: 1%;
         margin-bottom: 3%;
