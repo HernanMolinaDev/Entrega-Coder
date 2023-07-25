@@ -14,6 +14,30 @@
     transform: rotate(0deg);
   }
 }
+@media (max-width: 900px) {
+  .carrito-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 10px;
+    grid-template-areas: "e1" "e2" "e3" "e4" "e5";
+  }
+  .carousel-conteiner {
+    margin-left: 3%;
+    flex-direction: column;
+  }
+  .carousel {
+    width: 80vw;
+  }
+  .bienvenida-index {
+    width: 80vw;
+  }
+  .main-contact {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
 body {
   background-color: #696e34;
   margin: 0;
@@ -66,6 +90,7 @@ nav {
 footer {
   background-color: #18404e;
   background: #18404e;
+  margin-top: 50px;
 }
 footer .footer-link {
   color: #e9b607;
@@ -84,6 +109,7 @@ footer .footer-link {
   margin-top: 2%;
   margin-bottom: 5%;
   margin-right: 2%;
+  padding: 10px;
   width: 40vw;
   height: auto;
   text-align: center;
@@ -106,21 +132,37 @@ footer .footer-link {
   width: 10rem;
 }
 
-form {
+.main-contact {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.main-contact form {
   margin-top: 1%;
   margin-bottom: 3%;
-  margin-bottom: 3%;
+  padding-right: 15%;
+  padding-left: 15%;
   background-color: #18404e;
   border-radius: 1%;
   text-align: center;
+  height: max-content;
 }
-form .btn-form {
+.main-contact form .btn-form {
   color: #18404e;
   background-color: #e9b607;
   margin-bottom: 1%;
 }
-form .form-label {
+.main-contact form .form-label {
   color: #e9b607;
+}
+.main-contact .map-contact {
+  margin-right: 30px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.main-contact .map-contact .map-google {
+  width: 100%;
+  height: 100%;
 }
 
 .quienes-somos {
@@ -136,22 +178,6 @@ form .form-label {
   align-content: center;
 }
 
-@media (max-width: 900px) {
-  .carrito-container {
-    grid-template-areas: "e1" "e2" "e3" "e4" "e5";
-    grid-template-columns: 1fr;
-  }
-  .carousel-conteiner {
-    margin-left: 3%;
-    flex-direction: column;
-  }
-  .carousel {
-    width: 80vw;
-  }
-  .bienvenida-index {
-    width: 80vw;
-  }
-}
 @keyframes up-to-down {
   0% {
     margin-top: 300px;
