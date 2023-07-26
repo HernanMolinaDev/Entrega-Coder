@@ -252,7 +252,7 @@ footer .footer-link {
   width: max-content;
 }
 .main-error404 h1 {
-  font-size: 3000%;
+  font-size: 600%;
   color: #e9b607;
   text-shadow: 4px 5px #18404e;
   margin-top: 0;
@@ -261,6 +261,10 @@ footer .footer-link {
   color: #e9b607;
   text-align: center;
   font-size: 300%;
+}
+.main-error404 h3 {
+  color: #e9b607;
+  text-align: center;
 }
 
 @keyframes up-to-down {
