@@ -204,6 +204,11 @@ footer .footer-link {
   color: #e9b607;
   border-radius: 2%;
 }
+.carrito-container .grid-item p {
+  font-family: cursive;
+  padding-left: 2rem;
+  padding-top: 1rem;
+}
 .carrito-container .grid-item-np {
   justify-content: center;
   align-items: center;
@@ -238,6 +243,24 @@ footer .footer-link {
 
 .feed-carrito {
   grid-area: e5;
+}
+
+.main-error404 {
+  background-color: #18404e;
+}
+.main-error404 img {
+  width: max-content;
+}
+.main-error404 h1 {
+  font-size: 3000%;
+  color: #e9b607;
+  text-shadow: 4px 5px #18404e;
+  margin-top: 0;
+}
+.main-error404 h5 {
+  color: #e9b607;
+  text-align: center;
+  font-size: 300%;
 }
 
 @keyframes up-to-down {
